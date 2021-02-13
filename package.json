@@ -1,0 +1,25 @@
+{
+  "name": "lacreme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/lacreme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sambacha/lacreme/issues"
+  },
+  "homepage": "https://github.com/sambacha/lacreme#readme",
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "eslint-plugin-json": "^2.1.2",
+    "prettier": "^2.2.1"
+  }
+}
