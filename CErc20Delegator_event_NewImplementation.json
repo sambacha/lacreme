@@ -1,43 +1,43 @@
 {
-    "parser": {
-        "abi": {
-            "anonymous": false,
-            "inputs": [
-                {
-                    "indexed": false,
-                    "internalType": "address",
-                    "name": "oldImplementation",
-                    "type": "address"
-                },
-                {
-                    "indexed": false,
-                    "internalType": "address",
-                    "name": "newImplementation",
-                    "type": "address"
-                }
-            ],
-            "name": "NewImplementation",
-            "type": "event"
+  "parser": {
+    "abi": {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "oldImplementation",
+          "type": "address"
         },
-        "contract_address": "0x903560b1cce601794c584f58898da8a8b789fc5d",
-        "field_mapping": {},
-        "type": "log"
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "newImplementation",
+          "type": "address"
+        }
+      ],
+      "name": "NewImplementation",
+      "type": "event"
     },
-    "table": {
-        "dataset_name": "",
-        "schema": [
-            {
-                "description": "",
-                "name": "oldImplementation",
-                "type": "STRING"
-            },
-            {
-                "description": "",
-                "name": "newImplementation",
-                "type": "STRING"
-            }
-        ],
-        "table_description": "",
-        "table_name": "CErc20Delegator_event_NewImplementation"
-    }
+    "contract_address": "0x903560b1cce601794c584f58898da8a8b789fc5d",
+    "field_mapping": {},
+    "type": "log"
+  },
+  "table": {
+    "dataset_name": "",
+    "schema": [
+      {
+        "description": "",
+        "name": "oldImplementation",
+        "type": "STRING"
+      },
+      {
+        "description": "",
+        "name": "newImplementation",
+        "type": "STRING"
+      }
+    ],
+    "table_description": "",
+    "table_name": "CErc20Delegator_event_NewImplementation"
+  }
 }
